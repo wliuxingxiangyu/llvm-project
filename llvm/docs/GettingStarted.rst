@@ -1040,7 +1040,7 @@ Example with clang
 
      % clang -O3 -emit-llvm hello.c -c -o hello.bc
 
-   The -emit-llvm option can be used with the -S or -c options to emit an LLVM
+   The -emit-llvm   option can be used with the -S or -c options to emit an LLVM
    ``.ll`` or ``.bc`` file (respectively) for the code.  This allows you to use
    the `standard LLVM tools <CommandGuide/index.html>`_ on the bitcode file.
 
